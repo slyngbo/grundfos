@@ -7,8 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="../css/main.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
 
 </head>
 
@@ -16,19 +15,28 @@
 
   <!-- Header img -->
   <header>
-<a href="../index.html"><img class="img" src="../images/header.png" alt="header image"></a>
-</header>
-
+    <a href="index.html"><img class="img" src="images/header.png" alt="header image"></a>
+  </header>
   <!-- Grid -->
   <div class="container">
 
     <!-- Searchbar -->
     <input class="searchTerm item-search" placeholder="Enter your search term here..." />
+
+    <!-- Left icon bar -->
     <div class="item-filter-left icon-bar-left">
-      <a class="active" href="../subpages/active.html"><img src="../images/active.png" alt="Active filtering"></a>
-      <a href="../subpages/recommended.html"><img src="../images/recommended.png" alt="recommend filtering"></a>
-      <a href="../subpages/complete.html"><img src="../images/complete.png" alt="completed filtering"></a>
-      <a href="../subpages/popular.html"><img src="../images/popular.png" alt="popular filtering"></a>
+      <a class="active" href="subpages/active.html"><img src="images/active.png" alt="Active filtering"></a>
+      <a href="subpages/recommended.html"><img src="images/recommended.png" alt="recommend filtering"></a>
+      <a href="subpages/complete.html"><img src="images/complete.png" alt="completed filtering"></a>
+      <a href="subpages/popular.html"><img src="images/popular.png" alt="popular filtering"></a>
+    </div>
+
+    <!-- Topics -->
+    <div class="result-container">
+      <div class="result">
+        <h2 class="topicTitle">Welcome to Ecademy!</h2>
+            <img class="video-intro" src="images/videopop.jpg" alt="Intro video">
+      </div>
     </div>
 
     <!-- Filter roles -->
@@ -58,43 +66,7 @@
         <label for="Municipalwatersupply">
         <input type="radio" id="Municipalwatersupply"> Municipal water supply</label><br/>
     </div>
-
-    <!-- Topics -->
-    <div class="quiz-container">
-
-      <!-- Quiz overview -->
-      <div>
-        <h2 class="topicTitle">Grundfos AUTOADAPT</h2>
-        <p class="topicUnderTitle"> This quiz will test your understanding of Grundfos AUTOADAPT technology, <br> which is used in a number of our solutions, eg. in the ALPHA2 circulation pump.</p>
-      </div>
-
-      <div class="topicLine">
-      </div>
-
-      <!-- Question -->
-      <div>
-        <h2 class="assignments">Question 3</h2>
-      </div>
-      <div>
-        <p class="question">What does AUTOADAPT rely on to do its job?</p>
-      </div>
-      <div>
-        <div class="answers">
-          <input type="radio"> An innovative pressure sensor</input><br/>
-          <input type="radio"> Nanotechnology</input><br/>
-          <input type="radio"> A tried and tested algorithm</input><br/>
-        </div>
-      </div>
-      <div class="quiz-box">
-        <a class="quiz-button" href="quiz4.html">Submit answer</a>
-      </div>
-      <div class="topicLine">
-      </div>
-      <div class="progress">
-        <img src="../images/progress2.png" alt="progress">
-      </div>
-    </div>
-    </div>
+  </div>
 </body>
 
 </html>

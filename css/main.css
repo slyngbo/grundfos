@@ -72,14 +72,13 @@ body {
   grid-row-start: 2;
   grid-row-end: 2;
   margin-top: 20px;
+
 }
 
 .icon-bar-left a {
     display: block;
     color: white;
     font-size: 36px;
-    margin-top: 5px;
-    margin-bottom: 5px;
     border-style: solid;
     border-width: 2px;
     border-color: inherit;
@@ -89,25 +88,25 @@ body {
     display: block;
     align-items: center;
     padding: 16px;
-
+}
+input {
+    margin-left: -20px;
 }
 
 .icon-bar-left a:hover {
   border-style: solid;
   border-width: 2px;
-  border-color: #11497c;
+  border-color: #3386c3;
 }
 
-.icon-bar-left::active {
-  border-style: solid;
-  border-width: 2px;
-  border-color: #11497c;
-
+.icon-bar-left a:active {
+  border: 2px solid #3386c3;
 }
+
 
 .filter-roles {
   background-color: #dcdcdc;
-  padding: 10px;
+  padding: 20px;
     border-radius: 5px;
 }
 
@@ -178,6 +177,11 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.video-intro {
+  width: 96%;
+}
+
+/* TOPIC PAGE */
 
 #topicBody {
   display: flex;
@@ -270,13 +274,14 @@ body {
 }
 
 /** POP UP VIDEO */
+/**FROM: https://codepen.io/imprakash/pen/GgNMXO */
 
     .popup2 {
       margin: 70px auto;
       padding: 20px;
       background: #fff;
       border-radius: 5px;
-      width: 65%;
+      width: 60%;
       height: inherit;
       position: relative;
       transition: all 5s ease-in-out;
@@ -306,6 +311,7 @@ body {
 
 
     /* BUTTON POP UP QUIZ */
+    /**FROM: https://codepen.io/imprakash/pen/GgNMXO */
     .box {
       width: 40%;
       margin: 0 auto;
@@ -403,8 +409,10 @@ body {
       padding-top: 10px;
       padding-left: 20px;
       padding-right: 20px;
-      background-color: #d6d6d6;
+      border: 2px solid #d6d6d6;
       border-radius: 5px;
+      margin-bottom: 30px;
+        padding-bottom: 10px;
     }
 
     .quiz-box {
@@ -432,9 +440,12 @@ body {
     .progress {
       display: flex;
       justify-content: center;
-      margin-top: 20px;
-      margin-bottom: 20px;
+      margin-top: 10px;
 
+
+    }
+    .progress2 {
+        margin-bottom: 10px;
     }
 
     h4 {

@@ -14,7 +14,7 @@
 
     <!-- Header img -->
   <header>
-    <a href="../index.html"><img class="img"src="../images/header.png"></a>
+    <a href="../index.html"><img class="img" src="../images/header.png" alt="header image"></a>
   </header>
 
     <!-- Grid -->
@@ -23,46 +23,53 @@
     <!-- Searchbar -->
     <input class="searchTerm item-search" placeholder="Enter your search term here..."/>
     <div class="item-filter-left icon-bar-left">
-      <a href="active.html"><img src="../images/active.png"></a>
-      <a href="recommended.html"><img src="../images/recommended.png"></a>
-      <a href="complete.html"><img src="../images/complete.png"></a>
-      <a href="popular.html"><img src="../images/popular.png"></a>
+      <a class="active" href="../subpages/active.html"><img src="../images/active.png" alt="Active filtering"></a>
+      <a href="../subpages/recommended.html"><img src="../images/recommended.png" alt="recommend filtering"></a>
+      <a href="../subpages/complete.html"><img src="../images/complete.png" alt="completed filtering"></a>
+      <a href="../subpages/popular.html"><img src="../images/popular.png" alt="popular filtering"></a>
     </div>
 
     <!-- Topics -->
     <div class="result-container">
       <div class="result">
-        <a href="topic.html"><img src="../images/item1.png"></a>
-        <a href="topic.html"><img src="../images/item2.png"></a>
-        <a href="topic.html"><img src="../images/item3.png"></a>
-        <a href="topic.html"><img src="../images/item4.png"></a>
-        <a href="topic.html"><img src="../images/item5.png"></a>
-        <a href="topic.html"><img src="../images/item6.png"></a>
-        <a href="topic.html"><img src="../images/item7.png"></a>
-        <a href="topic.html"><img src="../images/item8.png"></a>
+        <a href="topic.html"><img src="../images/item1.png" alt="item1"></a>
+        <a href="topic.html"><img src="../images/item2.png" alt="item2"></a>
+        <a href="topic.html"><img src="../images/item3.png" alt="item3"></a>
+        <a href="topic.html"><img src="../images/item4.png" alt="item3"></a>
+        <a href="topic.html"><img src="../images/item5.png" alt="item4"></a>
+        <a href="topic.html"><img src="../images/item6.png" alt="item5"></a>
+        <a href="topic.html"><img src="../images/item7.png" alt="item6"></a>
+        <a href="topic.html"><img src="../images/item8.png" alt="item7"></a>
       </div>
     </div>
 
       <!-- Filter roles -->
-    <div class="item-filter-right icon-bar-right filter-roles">
-      <h3>Filter Roles</h3>
-      <ul style="list-style-type:circle">
-        <li>All roles</li>
-        <li>Engineer</li>
-        <li>Installer</li>
-        <li>Service partner</li>
-        <li>Wholesaler</li>
-      </ul>
-      <br>
-      <ul style="list-style-type:circle">
-        <li>All business areas</li>
-        <li>One or two family homes</li>
-        <li>bigger buildings</li>
-        <li>Industry</li>
-        <li>Municipal wastewater</li>
-        <li>Municipal water supply</li>
-      </ul>
-    </div>
+      <div class="item-filter-right icon-bar-right filter-roles">
+        <h3>Filter Roles</h3>
+        <label for="Allroles">
+          <input type="radio" id="Allroles"> All roles</label><br/>
+          <label for="Engineer">
+          <input type="radio" id="Engineer"> Engineer</label><br/>
+          <label for="Installer">
+          <input type="radio" id="Installer"> Installer</label><br/>
+          <label for="Servicepartner">
+          <input type="radio" id="Servicepartner"> Service partner</label><br/>
+          <label for="Wholesaler">
+          <input type="radio" checked="checked" id="Wholesaler"> Wholesaler</label><br/>
+        <br>
+        <label for="Allbusinessareas">
+          <input type="radio" id="Allbusinessareas"> All business areas</label><br/>
+          <label for="Oneortwofamilyhomes">
+          <input type="radio" id="Oneortwofamilyhomes"> One or two family homes</label><br/>
+          <label for="Biggerbuildings">
+          <input type="radio" id="Biggerbuildings"> Bigger buildings</label><br/>
+          <label for="Industry">
+          <input type="radio" id="Industry"> Industry</label><br/>
+          <label for="Municipalwastewater">
+          <input type="radio" id="Municipalwastewater"> Municipal wastewater</label><br/>
+          <label for="Municipalwatersupply">
+          <input type="radio" id="Municipalwatersupply"> Municipal water supply</label><br/>
+      </div>
   </div>
 </body>
 
