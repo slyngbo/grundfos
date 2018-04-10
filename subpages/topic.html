@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Ecademy</title>
+  <!-- meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+
+<body>
+
+  <!-- Header img -->
+  <header>
+    <a href="../index.html"><img class="img"src="../images/header.png"></a>
+  </header>
+
+  <!-- Grid -->
+  <div class="container">
+
+    <!-- Searchbar -->
+    <input class="searchTerm item-search" placeholder="Enter your search term here..." />
+    <div class="item-filter-left icon-bar-left">
+      <a href="active.html"><img src="../images/active.png"></a>
+      <a href="recommended.html"><img src="../images/recommended.png"></a>
+      <a href="complete.html"><img src="../images/complete.png"></a>
+      <a href="popular.html"><img src="../images/popular.png"></a>
+    </div>
+
+    <!-- Filter roles -->
+    <div class="item-filter-right icon-bar-right filter-roles">
+      <h3>Filter Roles</h3>
+      <ul style="list-style-type:circle">
+        <li>All roles</li>
+        <li>Engineer</li>
+        <li>Installer</li>
+        <li>Service partner</li>
+        <li>Wholesaler</li>
+      </ul>
+      <br>
+      <ul style="list-style-type:circle">
+        <li>All business areas</li>
+        <li>One or two family homes</li>
+        <li>bigger buildings</li>
+        <li>Industry</li>
+        <li>Municipal wastewater</li>
+        <li>Municipal water supply</li>
+      </ul>
+    </div>
+
+    <!-- Topics -->
+    <div class="result-container">
+      <div class="wrapper">
+        <section class="topicContainer">
+          <div class="topicPicture">
+            <img class="topic-image" src="../images/topic.jpg" alt="Topic Image">
+          </div>
+
+          <!-- Course overview -->
+          <div>
+            <h2 class="topicTitle">Grundfos AUTOADAPT</h2>
+            <p class="topicUnderTitle"> This course will help you understand and exploit Grundfos AUTOADAPT technology, <br> which is used in a number of our solutions, eg. in the ALPHA2 circulation pump.</p>
+            <div class="stars">
+              <h3>Topic Rating</h3>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Assignments -->
+        <h2 class="assignments">Assignments for this topic</h2>
+        <div class="topicLine">
+        </div>
+
+        <section class="topicTask1">
+          <div class="topicImageVideo">
+            <a href="#img1">
+              <img class="tasks" src="../images/videoassignment.jpg" alt="Video">
+            </a>
+          </div>
+          <div class="topicTextVideo">
+            <h3 class="topicTitleVideo">Installation of AUTOADAPT</h3>
+            <p class="topicHeaderVideo">Video - 2:21 MIN.</p>
+          </div>
+        </section>
+        <section class="topicTask2">
+          <div class="topicImageVideo">
+            <img class="tasks" src="../images/document.jpg" alt="Document">
+          </div>
+          <div class="topicTextVideo">
+            <h3 class="topicTitleVideo">Installation of AUTOADAPT</h3>
+            <p class="topicHeaderVideo">Document - Read time: 5 MIN.</p>
+          </div>
+        </section>
+
+        <!-- POP UP VIDEO -->
+        <div id="img1" class="overlay">
+          <div class="popup2">
+            <h2>Installation of AUTOADAPT</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content topicTask2">
+              <img src="../images/videopop.jpg" alt="Video pop up">
+              <!-- POP UP QUIZ -->
+              <div class="box">
+                <a class="button" href="quiz1.html">Start Quiz</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- POP UP QUIZ -->
+        <div class="box">
+          <a class="button" href="quiz1.html">Start Quiz</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
